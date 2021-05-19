@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Declarations
+$primary: #FF7B54;
+
+
+.bg-orange {
+    background-color: #FF7B54 !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+.navbar-toggler-icon {
+    background-image: url('assets/toggle-icon.svg') !important;
+}
+
+.btn-neon {
+    background-color: #FF7B54 !important;
+    border-radius: 5px !important;
+    color: #FFF !important;
+    border: none !important;
+    box-shadow: 0 4px  4px  rgba(255, 123, 84, 61%);
+}
+
+.slider {
+    
+}
+
+
+// Import bootstrap
+@import "node_modules/bootstrap/scss/bootstrap"
