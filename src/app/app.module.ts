@@ -3,24 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/templates/header/header.component';
-import { FooterComponent } from './components/templates/footer/footer.component';
-import { SliderComponent } from './components/templates/slider/slider.component';
+
 import { NavComponent } from './components/nav/nav.component';
+import { NavModule } from './components/nav/nav.module';
+import { TemplatesModule } from './components/templates/templates.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    SliderComponent,
-    NavComponent,
+
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TemplatesModule,
+    NavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
