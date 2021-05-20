@@ -6,6 +6,8 @@ import { NavComponent } from './nav.component';
 import { NavItemsComponent } from './components/nav-items/nav-items.component';
 import { PromoComponent } from './pages/promo/promo.component';
 import { PizzasComponent } from './pages/pizzas/pizzas.component';
+import { CardProdComponent } from './components/card-prod/card-prod.component';
+import { SliderComponent } from '../templates/slider/slider.component';
 
 
 @NgModule({
@@ -13,11 +15,13 @@ import { PizzasComponent } from './pages/pizzas/pizzas.component';
     NavComponent,
     NavItemsComponent,
     PromoComponent,
-    PizzasComponent
+    PizzasComponent,
+    CardProdComponent,
+    SliderComponent
   ],
   imports: [
     CommonModule,
-    NavRoutingModule
+    NavRoutingModule,
   ],
   exports: [
     NavComponent

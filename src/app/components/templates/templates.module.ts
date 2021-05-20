@@ -10,7 +10,7 @@ import { HeaderComponent } from './header/header.component';
   declarations: [
     HeaderComponent,
     FooterComponent,
-    SliderComponent,
+
   ],
   imports: [
     CommonModule
@@ -18,7 +18,7 @@ import { HeaderComponent } from './header/header.component';
   exports: [
     HeaderComponent,
     FooterComponent,
-    SliderComponent,
+
   ]
 })
 export class TemplatesModule { }

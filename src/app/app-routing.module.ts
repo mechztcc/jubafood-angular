@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
 
+  { path: 'endereco', loadChildren: () => import('./components/user/user.module').then(m => m.UserModule) },
   { path: 'cardapio', loadChildren: () => import('./components/nav/nav.module').then(m => m.NavModule) }
 ];
 
