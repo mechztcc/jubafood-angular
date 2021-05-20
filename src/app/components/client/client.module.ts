@@ -8,6 +8,9 @@ import { FormAddressComponent } from './components/form-address/form-address.com
 import { EditAddressComponent } from './pages/edit-address/edit-address.component';
 import { FormEditAddresComponent } from './components/form-edit-addres/form-edit-addres.component';
 import { TemplateModule } from '../template/template.module';
+import { PromoComponent } from './pages/promo/promo.component';
+import { PizzasComponent } from './pages/pizzas/pizzas.component';
+import { NavegatorComponent } from './components/navegator/navegator.component';
 
 
 @NgModule({
@@ -16,7 +19,10 @@ import { TemplateModule } from '../template/template.module';
     MainComponent,
     FormAddressComponent,
     EditAddressComponent,
-    FormEditAddresComponent
+    FormEditAddresComponent,
+    PromoComponent,
+    PizzasComponent,
+    NavegatorComponent
   ],
   imports: [
     CommonModule,
