@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-
 const routes: Routes = [
-
-  { path: 'endereco', loadChildren: () => import('./components/user/user.module').then(m => m.UserModule) },
-  { path: 'cardapio', loadChildren: () => import('./components/nav/nav.module').then(m => m.NavModule) }
+  { path: '', loadChildren: () => import('./components/client/client.module').then(m => m.ClientModule) },
+  { path: 'admin', loadChildren: () => import('./components/admin/admin.module').then(m => m.AdminModule)  },
 ];
 
 @NgModule({
