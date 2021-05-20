@@ -1,18 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+// /* You can add global styles to this file, and also import other style files */
 
-// Declarations
+// // Declarations
 $primary: #FF7B54;
 
 
-.bg-orange {
-    background-color: #FF7B54 !important;
-}
+// .bg-orange {
+//     background-color: #FF7B54 !important;
+// }
 
 .navbar-toggler {
     border: none !important;
 }
 .navbar-toggler-icon {
-    background-image: url('assets/toggle-icon.svg') !important;
+    background-image: url('assets/icons/toggle-icon.svg') !important;
 }
 
 .btn-neon {
@@ -23,43 +23,51 @@ $primary: #FF7B54;
     box-shadow: 0 4px  4px  rgba(255, 123, 84, 61%);
 }
 
-.card {
-    border: none !important;
-}
+// .card {
+//     border: none !important;
+// }
 
 
 
 
-// Custom classes
-.card-img {
-    width: 100%; 
-    height: auto; 
-    border-radius: 15px;
-    position: relative;
-}
+// // Custom classes
+// .card-img {
+//     width: 100%; 
+//     height: auto; 
+//     border-radius: 15px;
+//     position: relative;
+// }
 
-.card-text {
-    left: 15%;
-    position: absolute;
-    bottom: 0;
+// .card-text {
+//     left: 15%;
+//     position: absolute;
+//     bottom: 0;
 
-    .card-name {
-        font-size: 2em;
-        font-weight: bold;
-        color: #FFF;
+//     .card-name {
+//         font-size: 2em;
+//         font-weight: bold;
+//         color: #FFF;
+//     }
+
+//     .card-price {
+//         font-size: 1.5em;
+//         left: 25%;
+//         color: #96E92C;
+//     }
+// }
+
+// .w-80 {
+//     width: 80% !important;
+// }
+
+@media (min-width: 768px) {
+    .w-md-75 {
+      width: 75% !important;
     }
-
-    .card-price {
-        font-size: 1.5em;
-        left: 25%;
-        color: #96E92C;
+    .h-md-75 {
+      height: 75% !important;
     }
 }
 
-.w-80 {
-    width: 80% !important;
-}
-
-
-// Import bootstrap
+// // Import bootstrap
 @import "node_modules/bootstrap/scss/bootstrap"
