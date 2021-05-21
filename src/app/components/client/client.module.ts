@@ -11,6 +11,17 @@ import { TemplateModule } from '../template/template.module';
 import { PromoComponent } from './pages/promo/promo.component';
 import { PizzasComponent } from './pages/pizzas/pizzas.component';
 import { NavegatorComponent } from './components/navegator/navegator.component';
+import { CardProdComponent } from './components/card-prod/card-prod.component';
+import { NgxBootstrapIconsModule } from 'ngx-bootstrap-icons';
+
+import { arrowLeft, chevronLeft  } from 'ngx-bootstrap-icons';
+import { CartComponent } from './pages/cart/cart.component';
+import { CartItemComponent } from './components/cart-item/cart-item.component';
+
+const icons = {
+  arrowLeft,
+  chevronLeft
+}
 
 
 @NgModule({
@@ -22,12 +33,16 @@ import { NavegatorComponent } from './components/navegator/navegator.component';
     FormEditAddresComponent,
     PromoComponent,
     PizzasComponent,
-    NavegatorComponent
+    NavegatorComponent,
+    CardProdComponent,
+    CartComponent,
+    CartItemComponent
   ],
   imports: [
     CommonModule,
     ClientRoutingModule,
-    TemplateModule
+    TemplateModule,
+    NgxBootstrapIconsModule.pick(icons)
   ]
 })
 export class ClientModule { }
