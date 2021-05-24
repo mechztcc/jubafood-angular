@@ -42,6 +42,7 @@ const icons = {
     CommonModule,
     ClientRoutingModule,
     TemplateModule,
+    // HttpClient
     NgxBootstrapIconsModule.pick(icons)
   ]
 })
